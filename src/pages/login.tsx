@@ -4,7 +4,7 @@ import { Button, Card, CardBody, CardHeader } from 'reactstrap';
 import ErrorText from '../components/ErrorText';
 import { Providers } from '../config/firebase';
 import logging from '../config/logging';
-import firebase from 'firebase/compat/app';
+import firebase from 'firebase/app';
 import { Authenticate, SignInWithSocialMedia as SocialMediaPopup } from '../modules/Auth';
 import CenterPiece from '../components/CenterPiece';
 import LoadingComponent from '../components/LoadingComponent';

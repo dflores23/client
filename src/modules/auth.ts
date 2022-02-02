@@ -1,4 +1,4 @@
-import firebase from 'firebase/compat/app';
+import firebase from 'firebase/app';
 import { auth } from '../config/firebase';
 import IUser from '../interfaces/user';
 import axios from 'axios';
